@@ -1,10 +1,13 @@
 import "./App.css";
 import Card from "./components/Card";
+import { LanguageProvider } from "./components/LanguageContext";
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <LanguageProvider>
+        <Card />
+      </LanguageProvider>
     </div>
   );
 }

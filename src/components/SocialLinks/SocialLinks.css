@@ -5,7 +5,8 @@
   margin: 12px 0;
   text-align: center;
   text-decoration: none;
-  color: white;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
