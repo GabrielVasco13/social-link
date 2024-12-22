@@ -30,3 +30,7 @@
   margin-top: 8px;
   font-weight: bold;
 }
+
+.card-information {
+  color: hsl(0, 0%, 100%);
+}

@@ -12,6 +12,9 @@ const Card = () => {
       <section className="card-location">
         <p>São Paulo, Brazil</p>
       </section>
+      <section className="card-information">
+        <p>"Mobile Developer and Profissional Procrastinator."</p>
+      </section>
     </main>
   );
 };
