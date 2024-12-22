@@ -13,10 +13,7 @@ const Card = () => {
     <main className="card">
       <LanguageSwitcher />
       <div className="card-profile">
-        <img
-          alt="Foto de perfil"
-          src={`${process.env.PUBLIC_URL}/assets/profile-picture.png`}
-        />
+        <img alt="Foto de perfil" src="assets/profile-picture.png" />
       </div>
       <section className="card-name">
         <h1>Gabriel Vasconcelos</h1>
@@ -38,6 +35,11 @@ const Card = () => {
         link="https://www.youtube.com/@SrPotato16g"
       />
       <SocialLinks social="Twitch" link="https://www.twitch.tv/srpotato16g" />
+
+      <SocialLinks
+        social="Portfolio ❤️"
+        link="https://gabrielvasco13.github.io/portifolio/"
+      />
     </main>
   );
 };
