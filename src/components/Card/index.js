@@ -3,7 +3,7 @@ import SocialLinks from "../SocialLinks";
 import "./Card.css";
 import { translations } from "../../translation/translation";
 import LanguageSwitcher from "../LanguageSwitcher";
-import { LanguageContext } from "../LanguageContext";
+import { LanguageContext } from "../../LanguageContext";
 
 const Card = () => {
   const { language } = useContext(LanguageContext);

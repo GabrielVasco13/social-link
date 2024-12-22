@@ -1,6 +1,6 @@
 import "./App.css";
 import Card from "./components/Card";
-import { LanguageProvider } from "./components/LanguageContext";
+import { LanguageProvider } from "./LanguageContext";
 
 function App() {
   return (
