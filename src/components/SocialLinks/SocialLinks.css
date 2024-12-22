@@ -1,0 +1,15 @@
+.social-link {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  padding: 12px;
+  margin: 12px 0;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: hsl(0, 0%, 30%);
+}

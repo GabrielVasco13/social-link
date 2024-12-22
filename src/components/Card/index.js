@@ -1,3 +1,4 @@
+import SocialLinks from "../SocialLinks";
 import "./Card.css";
 
 const Card = () => {
@@ -15,6 +16,7 @@ const Card = () => {
       <section className="card-information">
         <p>"Mobile Developer and Profissional Procrastinator."</p>
       </section>
+      <SocialLinks social="Discord" link="www.google.com" />
     </main>
   );
 };
