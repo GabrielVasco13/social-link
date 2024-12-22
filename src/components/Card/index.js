@@ -15,7 +15,7 @@ const Card = () => {
       <div className="card-profile">
         <img
           alt="Foto de perfil"
-          src={`${process.env.PUBLIC_URL}/assets/images/profile-picture.png`}
+          src={`${process.env.PUBLIC_URL}/assets/profile-picture.png`}
         />
       </div>
       <section className="card-name">
