@@ -13,7 +13,10 @@ const Card = () => {
     <main className="card">
       <LanguageSwitcher />
       <div className="card-profile">
-        <img alt="Foto de perfil" src="/assets/images/profile-picture.png" />
+        <img
+          alt="Foto de perfil"
+          src={`${process.env.PUBLIC_URL}/assets/images/profile-picture.png`}
+        />
       </div>
       <section className="card-name">
         <h1>Gabriel Vasconcelos</h1>
