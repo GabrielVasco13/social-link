@@ -2,10 +2,16 @@ import "./Card.css";
 
 const Card = () => {
   return (
-    <main>
+    <main className="card">
       <div className="card-profile">
         <img alt="Foto de perfil" src="/assets/images/profile-picture.png" />
       </div>
+      <section className="card-name">
+        <h1>Gabriel Vasconcelos</h1>
+      </section>
+      <section className="card-location">
+        <p>São Paulo, Brazil</p>
+      </section>
     </main>
   );
 };
