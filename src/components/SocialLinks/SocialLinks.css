@@ -14,3 +14,10 @@
 .social-link:hover {
   background-color: hsl(0, 0%, 30%);
 }
+
+@media (max-width: 480px) {
+  .social-link {
+    padding: 10px;
+    margin: 6px 0;
+  }
+}

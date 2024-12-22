@@ -14,3 +14,10 @@
 .language-switcher:hover {
   background: #444;
 }
+
+@media (max-width: 480px) {
+  .language-switcher {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
