@@ -38,7 +38,7 @@ const Card = () => {
 
       <SocialLinks
         social="Portfolio ❤️"
-        link="https://gabrielvasco13.github.io/portifolio/"
+        link="https://gabrielvasco13.github.io/portfolio"
       />
     </main>
   );

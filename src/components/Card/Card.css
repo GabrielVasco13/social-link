@@ -37,10 +37,9 @@
   padding-bottom: 8px;
 }
 
-/* Mobile Styles */
 @media (max-width: 480px) {
   .card {
-    width: 75%;
+    width: 85%;
     margin: 10px auto;
     padding: 24px;
   }
