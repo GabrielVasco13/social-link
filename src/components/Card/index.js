@@ -25,14 +25,13 @@ const Card = () => {
         <p>{t.description}</p>
       </section>
       <SocialLinks social="GitHub" link="https://github.com/GabrielVasco13" />
-      <SocialLinks social="Discord" link="https://discord.gg/QGnsrcshbb" />
       <SocialLinks
         social="Linkedin"
         link="https://www.linkedin.com/in/gabrielvasco906/"
       />
       <SocialLinks
         social="Youtube"
-        link="https://www.youtube.com/@SrPotato16g"
+        link="https://www.youtube.com/@GabrielVasconcelosDev"
       />
       <SocialLinks social="Twitch" link="https://www.twitch.tv/srpotato16g" />
 
