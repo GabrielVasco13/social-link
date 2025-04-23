@@ -1,10 +1,10 @@
 export const translations = {
   en: {
     location: "São Paulo, Brazil",
-    description: "Mobile Developer and Professional Procrastinator",
+    description: "Mobile and Web Developer",
   },
   pt: {
     location: "São Paulo, Brasil",
-    description: "Desenvolvedor Mobile e Procrastinador Profissional",
+    description: "Desenvolvedor Mobile e Web",
   },
 };
